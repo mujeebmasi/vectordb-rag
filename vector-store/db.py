@@ -28,3 +28,7 @@ vector_store = Chroma.from_documents(
     embedding=embedding_model,
     persist_directory="./chroma_db"
 )
+
+result = vector_store.similarity_search("What is Python used for?", k=2)
+for r in result:
+    print(r.page_content)
