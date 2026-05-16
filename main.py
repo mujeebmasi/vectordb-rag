@@ -15,7 +15,7 @@ vector_store = Chroma(
 
 retriever = vector_store.as_retriever(
     search_type = "mmr",
-    search_kwargs = {"k":4,
+    search_kwargs = {"k":20,
                      "fetch_k":10,  #fetch_k is the number of documents to fetch before applying MMR
                                     #here, before applying mmr, we must have atleast 10 documents to choose from, so fetch_k should be greater than k
                      "lambda_mult":0.5 #lamda = 0 means highly diverse, 1 means less diverse.
