@@ -1,0 +1,42 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# LangChain + RAG
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+
+# Vector Database
+faiss-cpu
+
+# Embeddings / AI Providers
+google-generativeai
+langchain-google-genai
+
+groq
+langchain-groq
+
+mistralai
+langchain-mistralai
+
+# Document Loaders
+pypdf
+python-docx
+unstructured
+
+# Tokenization
+tiktoken
+
+# Utilities
+numpy
+pandas
+requests
+
+# Optional API validation
+pydantic
+
+# CORS support
+python-multipart
