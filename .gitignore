@@ -1,4 +1,5 @@
 .env
-PRD_Full_Stack_Training.pdf
-deeplearning.pdf
-notes.txt
+
+document_loader/PRD_Full_Stack_Training.pdf
+document_loader/deeplearning.pdf
+document_loader/notes.txt

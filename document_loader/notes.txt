@@ -1,7 +1,0 @@
-Hello How are you? 
-
-Generative AI using Langchain
-
-MistralAI GroqAI Google Gemini HuggingFace 
-
-Document Loader Text Splitter RAG VectorDB EmbeddingModels
